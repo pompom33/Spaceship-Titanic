@@ -10,5 +10,5 @@ PassengerId, HomePlanet, Cabin 등 승객들의 다양한 정보를 활용하여
 ## 모델에 대한 간단한 설명
 <img width="409" alt="image" src="https://github.com/user-attachments/assets/9a86bb41-1d5c-403e-bd4f-47bd2f10171c"> </br>
 Decision Tree Classifier, Random Forest, Boosting Tree(lightGBM)을 활용하여 모델을 형성하였고,
-Stratified K Fold 교차검정을 진행하였습니다.
-최종 채택한 모델은 **Grid Search로 찾은 Random Forest 모델**입니다.
+Stratified K Fold 교차검증을 진행하였습니다.
+최종 채택한 모델은 **Grid Search로 최적의 parameter를 찾은 Random Forest 모델**입니다.
